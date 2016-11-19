@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Configuracao-NodeRed
+  host: Configuracao-NodeRed
+  disk_quota: 1024M
+  services:
+  - Configuracao-NodeRed-cloudantNoSQLDB
